@@ -413,15 +413,15 @@ footer p{
     body{
         height: 100dvh;
         display: grid;
-        grid-template-columns: 5rem 1fr 40rem;
-        grid-template-areas: "nav nav nav"
-                             "section-1 section-1 section-1"
-                             "section-1-5 section-1-5 section-1-5"
-                             "section-2 section-2 section-2"
-                             "section-3 section-3 section-3"
-                             "section-4 section-4 section-4"
-                             "section-5 section-5 section-5"
-                             "footer footer footer";
+        grid-template-columns: 1fr;
+        grid-template-areas: "nav"
+                             "section-1"
+                             "section-1-5"
+                             "section-2"
+                             "section-3"
+                             "section-4"
+                             "section-5"
+                             "footer";
 
         }
         
@@ -519,7 +519,7 @@ footer p{
     }
 
     .card{
-        width: 20rem;
+        width: 30rem;
         height: 50dvh;
     }
     .card span{
